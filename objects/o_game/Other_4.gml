@@ -1,5 +1,5 @@
 //set grid / tile size
-#macro TS		32
+#macro TS	32
 
 //get tiles in room
 var _w = ceil(room_width / TS);
@@ -55,11 +55,24 @@ for (var yy = 0; yy < _h; ++yy) {
 				}					
 				
 			}					
-		} else {
-			//tile is empty, so should we add an enemy	
-			if random(1) <= .1 {
-				instance_create_layer(xx * TS + TS/2, yy * TS + TS/2, "Enemy", o_enemy);
-			}
-		}
+		} 
 	}
 }
+if (room == RoomS || room == Room1 || room == Room2)
+{
+    start_timer_seconds  = 3;
+    start_timer_running  = true;
+
+    round_timer_seconds  = 60;
+    round_timer_running  = false;
+
+   // is_spawner_active	= true;
+}
+else 
+{
+	start_timer_running = false;
+	round_timer_running = false;
+	//is_spawner_active = false;
+}
+	
+

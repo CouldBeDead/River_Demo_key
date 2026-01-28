@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"Cartoon_Gulp___Sound_Effect__Free_No_Copyright_",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":2.586122,
+  "exportDir":"",
   "name":"Cartoon_Gulp___Sound_Effect__Free_No_Copyright_",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Cartoon_Gulp___Sound_Effect__Free_No_Copyright_.mp3",
-  "type":0,
   "volume":1.0,
 }

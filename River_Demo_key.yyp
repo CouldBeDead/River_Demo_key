@@ -116,11 +116,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_menu","path":"rooms/Room_menu/Room_menu.yy",},},
     {"roomId":{"name":"RoomS","path":"rooms/RoomS/RoomS.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"_test","path":"rooms/_test/_test.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
     {"roomId":{"name":"H2P","path":"rooms/H2P/H2P.yy",},},

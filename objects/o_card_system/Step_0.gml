@@ -1,14 +1,26 @@
 //this chunk is for when a decision is triggered but there aren't any choices
 //creating said choices
 if(card_choice == true  && card1 == noone){
-	card1 = instance_create_layer(0,64,"UI",o_card);
-	card2 = instance_create_layer(128,64,"UI",o_card);
+	card1 = instance_create_layer(64,64,"UI",o_card);
+	card2 = instance_create_layer(256,64,"UI",o_card);
 	
 	//assigns a random buff and debuff to the card
-	card1.buff = buffs[random_range(0,array_length(buffs))];
-	card1.debuff = debuffs[random_range(0,array_length(debuffs))];
-	card2.buff = buffs[random_range(0,array_length(buffs))];
-	card2.debuff = debuffs[random_range(0,array_length(debuffs))];
+	var cardBuffIndex = random_range(0,array_length(buffs));
+	var cardDebuffIndex = random_range(0,array_length(debuffs));
+	card1.buff = buffs[cardBuffIndex];
+	card1.debuff = debuffs[cardDebuffIndex];
+	
+	card1.buff_text = buffsText[cardBuffIndex];
+	card1.debuff_text = debuffsText[cardDebuffIndex];
+	
+	cardBuffIndex = random_range(0,array_length(buffs));
+	cardDebuffIndex = random_range(0,array_length(debuffs));
+	
+	card2.buff = buffs[cardBuffIndex];
+	card2.debuff = debuffs[cardDebuffIndex];
+	
+	card2.buff_text = buffsText[cardBuffIndex];
+	card2.debuff_text = debuffsText[cardDebuffIndex];
 }
 
 //used when a choice is made but the cards are still in place

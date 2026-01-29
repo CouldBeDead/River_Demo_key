@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"s_enemy_idle",
   "bboxMode":2,
   "bbox_bottom":31,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1c4a7826-9196-44a3-96a0-7c2bc44ede96","name":"1c4a7826-9196-44a3-96a0-7c2bc44ede96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"065f0c00-001d-408a-b377-ec71685331e7","name":"065f0c00-001d-408a-b377-ec71685331e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"336fa7d4-7671-4ae3-a829-4b58af21e335","name":"336fa7d4-7671-4ae3-a829-4b58af21e335","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b87d79df-9d7b-4d29-9781-cde1b2157a07","name":"b87d79df-9d7b-4d29-9781-cde1b2157a07","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"20ba2ac9-8eed-4341-b367-2711252ec082","name":"20ba2ac9-8eed-4341-b367-2711252ec082","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1c4a7826-9196-44a3-96a0-7c2bc44ede96","name":"1c4a7826-9196-44a3-96a0-7c2bc44ede96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"065f0c00-001d-408a-b377-ec71685331e7","name":"065f0c00-001d-408a-b377-ec71685331e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"336fa7d4-7671-4ae3-a829-4b58af21e335","name":"336fa7d4-7671-4ae3-a829-4b58af21e335","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b87d79df-9d7b-4d29-9781-cde1b2157a07","name":"b87d79df-9d7b-4d29-9781-cde1b2157a07","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"20ba2ac9-8eed-4341-b367-2711252ec082","name":"20ba2ac9-8eed-4341-b367-2711252ec082","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -36,7 +36,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"s_enemy_idle",
     "autoRecord":true,
     "backdropHeight":768,

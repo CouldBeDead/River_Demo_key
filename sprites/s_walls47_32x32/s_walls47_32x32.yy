@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"s_walls47_32x32",
   "bboxMode":0,
-  "bbox_bottom":415,
+  "bbox_bottom":511,
   "bbox_left":0,
   "bbox_right":255,
   "bbox_top":0,

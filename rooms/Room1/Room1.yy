@@ -19,8 +19,11 @@
         {"$GMRInstance":"v4","%Name":"inst_35B7BC8A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35B7BC8A","objectId":{"name":"o_invis_wall","path":"objects/o_invis_wall/o_invis_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.125,"scaleY":1.9375,"x":1080.0,"y":353.0,},
         {"$GMRInstance":"v4","%Name":"inst_5C3C5CEC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C3C5CEC","objectId":{"name":"o_invis_wall","path":"objects/o_invis_wall/o_invis_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.109375,"scaleY":1.546875,"x":0.0,"y":60.0,},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
 =======
+=======
+>>>>>>> Stashed changes
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
 >>>>>>> Stashed changes
     {"$GMRInstanceLayer":"","%Name":"Arrow","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Arrow","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

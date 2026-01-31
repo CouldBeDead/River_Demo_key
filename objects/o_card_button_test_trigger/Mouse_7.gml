@@ -1,1 +1,0 @@
-o_card_system.card_choice = true;

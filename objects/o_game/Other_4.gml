@@ -58,7 +58,7 @@ for (var yy = 0; yy < _h; ++yy) {
 		} 
 	}
 }
-if ( room == Room1 )
+if (room == RoomS || room == Room1 || room == Room2)
 {
     start_timer_seconds  = 3;
     start_timer_running  = true;

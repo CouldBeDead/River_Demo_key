@@ -11,7 +11,6 @@
     {"name":"inst_17F9E46C","path":"rooms/Room_menu/Room_menu.yy",},
     {"name":"inst_FD9621D","path":"rooms/Room_menu/Room_menu.yy",},
     {"name":"inst_7B8F65A","path":"rooms/Room_menu/Room_menu.yy",},
-    {"name":"inst_6840072C","path":"rooms/Room_menu/Room_menu.yy",},
     {"name":"inst_1A67C854","path":"rooms/Room_menu/Room_menu.yy",},
     {"name":"inst_2A20CA3E","path":"rooms/Room_menu/Room_menu.yy",},
   ],

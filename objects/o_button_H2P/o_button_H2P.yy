@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SPR_HELP",
-    "path":"sprites/SPR_HELP/SPR_HELP.yy",
+    "name":"Sprite28",
+    "path":"sprites/Sprite28/Sprite28.yy",
   },
   "spriteMaskId":null,
   "visible":true,

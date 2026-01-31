@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SPR_QUIT",
-    "path":"sprites/SPR_QUIT/SPR_QUIT.yy",
+    "name":"Sprite28",
+    "path":"sprites/Sprite28/Sprite28.yy",
   },
   "spriteMaskId":null,
   "visible":true,

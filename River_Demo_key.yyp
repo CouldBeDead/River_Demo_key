@@ -67,7 +67,6 @@
     {"id":{"name":"Object23","path":"objects/Object23/Object23.yy",},},
     {"id":{"name":"Object29","path":"objects/Object29/Object29.yy",},},
     {"id":{"name":"_test","path":"rooms/_test/_test.yy",},},
-    {"id":{"name":"Cardtesting","path":"rooms/Cardtesting/Cardtesting.yy",},},
     {"id":{"name":"H2P","path":"rooms/H2P/H2P.yy",},},
     {"id":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
     {"id":{"name":"Room_menu","path":"rooms/Room_menu/Room_menu.yy",},},
@@ -75,7 +74,6 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"RoomS","path":"rooms/RoomS/RoomS.yy",},},
     {"id":{"name":"Win","path":"rooms/Win/Win.yy",},},
-    {"id":{"name":"Card_Processes","path":"scripts/Card_Processes/Card_Processes.yy",},},
     {"id":{"name":"enemy_processes","path":"scripts/enemy_processes/enemy_processes.yy",},},
     {"id":{"name":"entity_processes","path":"scripts/entity_processes/entity_processes.yy",},},
     {"id":{"name":"macros_enums","path":"scripts/macros_enums/macros_enums.yy",},},
@@ -126,7 +124,6 @@
     {"roomId":{"name":"_test","path":"rooms/_test/_test.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
     {"roomId":{"name":"H2P","path":"rooms/H2P/H2P.yy",},},
-    {"roomId":{"name":"Cardtesting","path":"rooms/Cardtesting/Cardtesting.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

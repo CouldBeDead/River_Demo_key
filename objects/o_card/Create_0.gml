@@ -5,4 +5,10 @@ debuff = testCard;
 
 //filler description text
 buff_text = "";
+<<<<<<< Updated upstream
 debuff_text = “”;
+=======
+debuff_text = "";
+
+chosen = false; // VERY important
+>>>>>>> Stashed changes

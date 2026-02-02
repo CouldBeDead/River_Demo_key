@@ -17,19 +17,21 @@ if (start_timer_running)
         start_timer_running = false;
 
         // Begin round timer
-        round_timer_seconds = 60;
+        round_timer_seconds = 10;
         round_timer_running = true;
 
-        // Enable Deadline
+     
        // is_spawner_active   = true;
 
 
     }
 }
 
+
 // Round Timer
 if (round_timer_running)
 {
+
     var game_fps = game_get_speed(gamespeed_fps);
     round_timer_seconds -= 1 / game_fps;
 
@@ -38,17 +40,23 @@ if (round_timer_running)
     {
         round_timer_running = false;
        // is_spawner_active     = false;
-
-        round_current += 1;
-
-        if (round_current > round_max)
-        {
-            room_goto(rm_lose);  // game over
-        }
-        else
-        {
-            start_timer_seconds = 3;
-            start_timer_running = true;
-        }
-    }
+		global.card_choice = true;
+	}
 }
+if(!round_timer_running && !global.card_choice && !start_timer_running)
+{
+	round_current ++;
+    
+	if(round_current >= round_max)
+	{
+		room_goto(Lose);  // game over
+	}
+	else
+	{
+		start_timer_seconds = 3;
+		start_timer_running = true;
+	}
+
+}
+
+

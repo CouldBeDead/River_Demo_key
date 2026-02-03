@@ -6,3 +6,6 @@ debuff = testCard;
 //filler description text
 buff_text = "";
 debuff_text = "";
+
+debuff_text = "";
+chosen = false

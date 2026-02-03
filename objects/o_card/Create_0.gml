@@ -9,3 +9,6 @@ debuff_text = "";
 
 debuff_text = "";
 chosen = false
+
+gui_x = 0;
+gui_y = 0;

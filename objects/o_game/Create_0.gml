@@ -26,6 +26,8 @@ round_timer_running = false;
 // Set Game FPS Once
 game_set_speed(60, gamespeed_fps);
 global.card_choice = false;
+
+alarm_set(1,120);
 //is_spawner_active = false;
 
 // audio_play_sound();

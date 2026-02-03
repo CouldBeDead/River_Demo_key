@@ -17,7 +17,7 @@ if (start_timer_running)
         start_timer_running = false;
 
         // Begin round timer
-        round_timer_seconds = 10;
+        round_timer_seconds = 30;
         round_timer_running = true;
 
         enemies_spawned_this_round = false; // reset just to be safe

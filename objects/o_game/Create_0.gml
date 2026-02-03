@@ -20,7 +20,7 @@ start_timer_running = false;
 
 // Round Timer
 
-round_timer_seconds = 60;
+round_timer_seconds = 30;
 round_timer_running = false;
 
 // Set Game FPS Once

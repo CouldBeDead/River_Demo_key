@@ -6,11 +6,11 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":1,
+  "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":103.47102,
+  "duration":488.47818,
   "exportDir":"",
   "name":"Dun_crawl",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Dun_crawl.mp3",
-  "volume":0.3,
+  "volume":1.0,
 }

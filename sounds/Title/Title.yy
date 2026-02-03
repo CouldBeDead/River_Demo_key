@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":154.93225,
+  "duration":488.47818,
   "exportDir":"",
   "name":"Title",
   "parent":{

@@ -1,8 +1,8 @@
 //this chunk is for when a decision is triggered but there aren't any choices
 //creating said choices
-if(card_choice == true  && card1 == noone){
-	card1 = instance_create_layer(64,64,"UI",o_card);
-	card2 = instance_create_layer(256,64,"UI",o_card);
+if(global.card_choice == true  && card1 == noone){
+	card1 = instance_create_layer(64,64,"Instances",o_card);
+	card2 = instance_create_layer(256,64,"Instances",o_card);
 	
 	//assigns a random buff and debuff to the card
 	var cardBuffIndex = random_range(0,array_length(buffs));
@@ -25,7 +25,7 @@ if(card_choice == true  && card1 == noone){
 
 //used when a choice is made but the cards are still in place
 //it destroys both cards
-if(card_choice == false && card1 != noone){
+if(global.card_choice == false && card1 != noone){
 	instance_destroy(card1);
 	card1 = noone
 	instance_destroy(card2);

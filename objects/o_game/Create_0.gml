@@ -8,7 +8,7 @@ persistent = true;
 
 // Game System
 round_current = 1;
-round_max = 2;
+round_max = 10;
 
 // Scores 
 player_score = 0;
@@ -25,7 +25,7 @@ round_timer_running = false;
 
 // Set Game FPS Once
 game_set_speed(60, gamespeed_fps);
-
+global.card_choice = false;
 //is_spawner_active = false;
 
 // audio_play_sound();

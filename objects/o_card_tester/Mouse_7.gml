@@ -1,0 +1,1 @@
+global.card_choice = true;

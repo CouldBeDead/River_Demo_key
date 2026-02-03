@@ -16,6 +16,13 @@ function increasePlayerSpeed(){
 	}
 }
 
+function increaseFireRate(){
+	show_debug_message("Fire rate increased!!!");
+	if(instance_exists(o_player)){
+		o_player.fire_rate *= 1.25;
+	}
+}
+
 function increaseSpawns(){
 	show_debug_message("More emenys!!!");
 	//filler when spawner is made.	
@@ -26,4 +33,10 @@ function increaseEnemyAttack(){
 	//filler when spawner is made.	
 	//my idea for the functionality is either the spawner or card system stores the increase in damage.
 	//that damage is then added to the enemy whenever they spawn.
+}
+
+function decreaseTotalTime(){
+	show_debug_message("Less Time");
+	//filler when spawner is made.	
+	//decrease the max time by an amount per round
 }

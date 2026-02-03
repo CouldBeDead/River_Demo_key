@@ -1,8 +1,8 @@
 //this chunk is for when a decision is triggered but there aren't any choices
 //creating said choices
 if(global.card_choice == true  && card1 == noone){
-	card1 = instance_create_layer(64,64,"Instances",o_card);
-	card2 = instance_create_layer(256,64,"Instances",o_card);
+	card1 = instance_create_layer(32,64,"Instances",o_card);
+	card2 = instance_create_layer(192,64,"Instances",o_card);
 	
 	//assigns a random buff and debuff to the card
 	var cardBuffIndex = random_range(0,array_length(buffs));
